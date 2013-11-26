@@ -2,7 +2,7 @@
 <head><title></title>
 <link href="styles/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="styles/main.css" rel="stylesheet" type="text/css" />
-
+<link href="styles/login_form.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="scripts/bootstrap.js"> </script>
 <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
 
@@ -25,8 +25,6 @@
 	</ul>
 </div>
 
-<div id="content">
-
 <div id="sidebar">
 	<ul>
 		<br /><br />
@@ -37,14 +35,10 @@
 	</ul>
 </div>  <!-- end of sidebar   -->
 
-
-	
-	
-  
+<div id="content">  <!--start of content  -->
 
 
-	
-</div>
+</div> <!--End of Content   -->
 
 <div id="footer">
 	

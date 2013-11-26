@@ -1,8 +1,12 @@
+
 #banner{
 	background-color: #59C4C5;
-	height:80px;
-	margin-left: 5%;
-	margin-right: 5%;
+	height:13%;
+	position: absolute;
+	top:0;
+	left: 5%;
+	right: 5%;
+
 
 }
 
@@ -22,9 +26,12 @@
 #navbar{
 	background-color: #00C8F8;
 	
-	height:49px;
-	margin-left: 5%;
-	margin-right: 5%
+	height:7%;
+	position: absolute;
+	top:13%;
+	left: 5%;
+	right: 5%;
+
 	
 
 
@@ -35,16 +42,17 @@
 	list-style: none;
 	margin: 0;
 	padding: 0px;
+
+	border: 0;
 	
 }
 
 #navbar li{
 	float: left;
-	//margin-right: 30px;
 	border-right: 30px;
-	padding-bottom: 5px;
+	padding-bottom: 6px;
 	font-weight: bold;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-family: serif;
 
 
@@ -52,10 +60,11 @@
 
 #navbar li a{
 
-	//background-color: #f9f9f9;
+	
 	display: block;
 	
-	padding: 0.5em;
+	padding: 0.4em;
+	padding-right: 0.6em;
 	text-decoration: none;
 	color: #fff;
 
@@ -64,23 +73,31 @@
 #navbar li a:hover{
 	background-color: #f9f9f9;
 	display: block;
-	border-radius: 8;
+	border-radius: 10;
 	color:#000;
+	border: 0;
+	margin: 0;
+}
+
+#sidebar{
+	
+	background-color: #FBE2B4;
+	height:75%;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	width: 17%;
+	
 }
 
 #content{
 	
 	background-color: #E5E5E5;
-	
-	margin-left: 5%;
-	margin-right: 5%;
-	
-	padding-bottom: 0px;
-	
-	margin-bottom: 0;
-	height: 80%;
-
-
+	position: absolute;
+	top: 20%;
+	left:22%;
+	right: 5%;
+	height:75%;
 	
 }
 
@@ -92,22 +109,13 @@
 }
 
 
-
-#sidebar{
-	margin-left: 0;
-	margin-top: 0;
-	width:250px;
-	background-color: #FBE2B4;
-	height:100%;
-}
-
 .search{
-	width:800px;
-	margin: auto;
-	position: absolute;
-	top:350px;
-	left:500px;
-	//padding-top:250px;
+	
+	position: relative;
+	top: 50%;
+	left:20%;
+	
+	
 }
 
 
@@ -115,10 +123,10 @@
 #footer{
 	
 	
-	height:35px;
-	margin-right: 5%;
-	margin-left: 5%;
-	
+	position: absolute;
+	top: 95%;
+	left: 5%;
+	right: 5%;
 	background-color: #4AAAA5; 
 }
 
@@ -138,14 +146,11 @@
 	font-size: 14pt;
 }
 
-div#login{
-	position: absolute;
-	left: 40px;
-	top: 40px;
-}
+
 
 body{
 	background:transparent url(../images/old_moon.png) ;
 	background-repeat: repeat;
+
 }
 

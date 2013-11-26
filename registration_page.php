@@ -24,8 +24,6 @@
 	</ul>
 </div>
 
-<div id="content">
-
 <div id="sidebar">
 	<ul>
 		<br /><br />
@@ -36,13 +34,9 @@
 	</ul>
 </div>  <!-- end of sidebar   -->
 
-
-	
-	
-  
+<div id="content">
 
 
-	
 </div>
 
 <div id="footer">
