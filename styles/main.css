@@ -71,9 +71,9 @@
 }
 
 #navbar li a:hover{
-	background-color: #f9f9f9;
+	//background-color: #f9f9f9;
+	background-color: #EAE2B4;
 	display: block;
-	border-radius: 10;
 	color:#000;
 	border: 0;
 	margin: 0;
@@ -89,6 +89,7 @@
 	width: 17%;
 	
 }
+
 
 #content{
 	
@@ -136,14 +137,46 @@
 	font-size: 10pt;
 }
 
-#sidebar ul{
+/*#sidebar ul{
 	list-style: none;
+	
+
+}*/
+
+/*#sidebar ul li a{
+	color:teal;
+	font-size: 14pt;
+}*/
+
+/*#sidebar li a:hover{
+	background-color: white;
+	text-decoration: none;
+	display: block;
+	
+}*/
+
+#sidebar #registernav,#sidebar #loginnav{
+	margin-bottom: 1px;
+	text-align: center;
+	padding-top: 4%;
+	height:40px;
+	background-color: #EAE2B4;
+	font-size: 1.2em;
+
 
 }
 
-#sidebar ul li a{
-	color:teal;
-	font-size: 14pt;
+#sidebar a{
+	text-decoration: none;
+	position: relative;
+
+}
+
+#sidebar #registernav:hover,#sidebar #loginnav:hover{
+	background-color: #E5E5E5;
+	text-decoration: none;
+	display: block;
+
 }
 
 

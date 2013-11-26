@@ -2,7 +2,7 @@
 <head><title></title>
 <link href="styles/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="styles/main.css" rel="stylesheet" type="text/css" />
-<link href="styles/login_form.css" rel="stylesheet" type="text/css" />
+<link href="styles/forms.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="scripts/bootstrap.js"> </script>
 <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
 
@@ -26,17 +26,23 @@
 </div>
 
 <div id="sidebar">
-	<ul>
-		<br /><br />
-		<li><a href="registration_page.php">Register</a></li>
-		<li><a href="login_page.php">Login</a></li>
-		<li></li>
-		<li></li>
-	</ul>
+	<br /><br />
+		<a href="registration_page.php"><div id="registernav">Register</div></a>
+		<a href="login_page.php"><div id="loginnav">Login</div></a>
 </div>  <!-- end of sidebar   -->
 
 <div id="content">  <!--start of content  -->
 
+	<form class="login">
+			    <h1>Login, Please? <img src="images/lock_fill.svg" class="secure" /></h1>
+			    <label for="email">Email</label>
+				<input type="email" alt="email" id="email" placeholder="romeo@juliet.com" required="">
+			    
+			    <label for="password">Password</label>
+			    <input type="password" alt="password" id="password" placeholder="Password" required="">
+			    			
+			    <button type="submit" alt="Log In" id="button">Log Me In</button>	
+			</form><!-- .login -->
 
 </div> <!--End of Content   -->
 

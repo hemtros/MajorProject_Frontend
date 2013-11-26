@@ -25,13 +25,13 @@
 </div>
 
 <div id="sidebar">
-	<ul>
+	
 		<br /><br />
-		<li><a href="registration_page.php">Register</a></li>
-		<li><a href="login_page.php">Login</a></li>
-		<li></li>
-		<li></li>
-	</ul>
+		<a href="registration_page.php"><div id="registernav">Register</div></a>
+		<a href="login_page.php"><div id="loginnav">Login</div></a>
+		
+		
+
 </div>  <!-- end of sidebar   -->
 
 <div id="content">
