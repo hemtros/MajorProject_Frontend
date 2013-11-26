@@ -6,7 +6,8 @@
 	top:0;
 	left: 5%;
 	right: 5%;
-
+	z-index: 3;
+	
 
 }
 
@@ -31,9 +32,8 @@
 	top:13%;
 	left: 5%;
 	right: 5%;
-
+	z-index: 8;
 	
-
 
 
 }
@@ -112,7 +112,7 @@
 
 .search{
 	
-	position: relative;
+	position: absolute;
 	top: 50%;
 	left:20%;
 	
@@ -128,7 +128,8 @@
 	top: 95%;
 	left: 5%;
 	right: 5%;
-	background-color: #4AAAA5; 
+	//background-color: #4AAAA5; 
+	background-color: #24A7B4;
 }
 
 #footer p{
