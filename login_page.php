@@ -35,8 +35,8 @@
 
 	<form class="login">
 			    <h1>Login, Please? <img src="images/lock_fill.svg" class="secure" /></h1>
-			    <label for="email">Email</label>
-				<input type="email" alt="email" id="email" placeholder="romeo@juliet.com" required="">
+			    <label for="username">Username</label>
+				<input type="text" alt="username" id="username" placeholder="Username" required="">
 			    
 			    <label for="password">Password</label>
 			    <input type="password" alt="password" id="password" placeholder="Password" required="">

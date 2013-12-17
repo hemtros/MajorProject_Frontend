@@ -3,8 +3,9 @@
 <link href="styles/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="styles/main.css" rel="stylesheet" type="text/css" />
 <link href="styles/forms.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="scripts/bootstrap.js"> </script>
 <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="scripts/bootstrap.js"> </script>
+<script type="text/javascript" src="scripts/myscript.js"></script>
 
 </head>
 
@@ -33,26 +34,22 @@
 
 <div id="content">
 	
-	<form class="register">
+	<form class="register"  id="register">
 			    <h1>Join, Please? <img src="images/lock_fill.svg" class="secure" /></h1>
-			    <label for="email">Email</label>
-			    <input type="email" alt="email" id="email" placeholder="romeo@juliet.com" required="">
-			    
-			    <label for="firstname">First Name</label>
-			    <input type="text" alt="first name" id="firstname" placeholder="First Name" required="">
-			    
-			    <label for="lastname">Last Name</label>
-			    <input type="text" alt="last name" id="lastname" placeholder="Last Name" required="">
-			    
+			   
+			    <label for="username">Username</label>
+			    <input type="text" alt="user name" id="username" placeholder="Username" required=""  name="username" />
 			    <label for="password">Password</label>
-			    <input type="password" alt="password" id="password" placeholder="Password" required="">
+			    <input type="password" alt="password" id="password" placeholder="Password" required="" name="password"  />
 			    
 			    <label for="passwordagain">Password Again</label>
-			    <input type="password" alt="password again" id="passwordagain" placeholder="Password Again" required="">
+			    <input type="password" alt="password again" id="passwordagain" placeholder="Password Again" required=""  />
+			     <label for="phoneno">Phone no.</label>
+			     <input type="tel" pattern="^98[\d]{8}" id="phoneno" placeholder="Phone no: 9845091438" required=""  name="phone"/>
 			    					
 			    <button type="submit" alt="Sign Up" id="button">Sign up for free!</button>	
+			    
 			</form><!-- .register -->
-
 </div>
 
 <div id="footer">
